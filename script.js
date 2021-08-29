@@ -25,3 +25,16 @@ console.log(element4)
 
 const element5 = document.querySelectorAll('.one')
 console.log(element5)
+
+/*
+    Qual usar?
+
+    Retorna NodeList (aceita forEach)
+        quarrySelectorAll
+    
+    Retorna HTMLCollection (não aceita)
+        getElements
+
+    Retorna o elemento diretamente
+        getElementById & querrySelector (um pouco mais lento)
+*/
