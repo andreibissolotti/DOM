@@ -11,5 +11,17 @@ console.log(element2)
 
 // getElementsByTagName('nome da tag')
 
-element3 = document.getElementsByTagName('meta')
+const element3 = document.getElementsByTagName('meta')
 console.log(element3)
+
+// querrySelector('Selector CSS')
+// Pega o primeiro que encontrar
+
+const element4 = document.querySelector('[src]')
+console.log(element4)
+
+// querrySelectorAll()
+// Seleciona tudo que corresponde
+
+const element5 = document.querySelectorAll('.one')
+console.log(element5)
