@@ -9,8 +9,11 @@ console.log(element.parentNode)
 const el = document.querySelector('body')
 
 console.log(el.children)
+console.log(el.childNodes)
 
-// firstChild firstElementChild
+// firstChild (considera os espaços vazios) firstElementChild (ignora espaços vazios)
 
+console.log(el.firstChild)
+console.log(el.firstElementChild)
 
 // lastChild lastElementChild
