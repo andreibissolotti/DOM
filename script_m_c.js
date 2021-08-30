@@ -22,3 +22,13 @@ const element1 = document.querySelector('input')
 console.log(element1.value)
 element1.value = ('Valor que eu quiser')
 
+// Atributos
+
+const header = document.querySelector('header')
+
+header.setAttribute('id','header') // Adiciona, ou modifica um atributo
+
+const headerID = document.querySelector('#header')
+console.log(headerID.getAttribute('id')) // Pega o atributo
+
+header.removeAttribute('id') // Remove o atributo
