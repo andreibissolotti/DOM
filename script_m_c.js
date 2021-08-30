@@ -3,9 +3,12 @@
 // textContent
 const element = document.querySelector('h1')
 
-element1.textContent = "Olá Devs!"
+element.textContent = "Olá Devs!"
 
-console.log(element1.textContent)
+console.log(element.textContent)
 
 // innerText
 
+element.innerText= "Olá Devs!"
+
+// 
