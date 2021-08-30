@@ -14,3 +14,11 @@ element.innerText= "Olá Devs!"
 // innerHTML
 
 element.innerHTML= "Olá Devs! <small>!!!</small>"
+
+// value (manipula um input)
+
+const element1 = document.querySelector('input')
+
+console.log(element1.value)
+element1.value = ('Valor que eu quiser')
+
