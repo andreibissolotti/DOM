@@ -19,3 +19,9 @@ console.log(el.firstElementChild)
 // lastChild lastElementChild
 
 // Igual ao caso anterior, so que para o último
+
+// nextSibling nextElementSibling
+
+// previousSibling previousElementSibling
+
+// Similar aos casos anteriores porem para irmãos
