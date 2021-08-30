@@ -17,3 +17,5 @@ console.log(el.firstChild)
 console.log(el.firstElementChild)
 
 // lastChild lastElementChild
+
+// Igual ao caso anterior, so que para o último
